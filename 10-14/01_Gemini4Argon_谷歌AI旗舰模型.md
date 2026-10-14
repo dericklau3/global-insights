@@ -1,12 +1,12 @@
-# 谷歌 Gemini 4 Argon 登场：Chrome 一项原需数月的重构，为何几周就完成了？
+# 谷歌 Gemini 4 Argon 登场：从改代码、找漏洞到训练机器人，AI 的能力又进了一步
 
-一个原本以数月估算的浏览器代码重构项目，Google 表示借助 AI 模型，团队在数周内完成了关键工作。
+一次模型发布，Google 同时拿出了几种截然不同的应用：**协助 Chrome 团队重构大型代码库、帮助安全团队排查关键漏洞、优化科学计算，甚至让机器人从视频中学习动作。**
 
-这不是一段简单的代码生成演示，而是涉及 **Chromium 数百个文件**的真实工程任务。
+10 月 13 日，Google 向开发者、企业及符合条件的订阅用户开放新一代旗舰模型 **Gemini 4 Argon**，重点不只是让 AI 更擅长回答问题，而是尝试让它持续完成复杂任务。
 
-10 月 13 日，Google 发布新一代旗舰模型 **Gemini 4 Argon**，同时披露了代码重构、科研计算和机器人实验等应用案例。
+这些案例并非都已成为普通用户随手可用的功能，其中不少仍属于特定团队的实践或实验。但它们提出了一个更值得讨论的问题：
 
-比起模型排名，更值得关注的是：**当 AI 开始参与需要连续分析、修改和验证的复杂任务，它究竟能帮人完成多少工作？**
+**AI 正在从辅助人做单个步骤，走向参与整个工作流程。它真正能完成到哪一步？**
 
 ![Google 官方发布的 Gemini 4 Argon 视觉图](assets/01_gemini4argon_official.jpg)
 
@@ -74,6 +74,18 @@ Google 披露，优化后分子结构预测部分任务的运行速度最高达�
 
 **对需要大量重复分析的领域来说，时间本身就是巨大的成本。**
 
+## 找漏洞、处理专业资料：另一种更现实的用法
+
+除了工程和机器人，Google 还展示了 Argon 在安全防御与专业知识工作里的应用。
+
+网络安全公司 Wiz 在其公益安全项目中使用 Argon，帮助排查医疗系统的软件缺陷。据 Google 披露，该团队发现并协助修复了一组可能造成高权限访问的漏洞，涉及**数十万份患者隐私记录的保护**。
+
+这不是让 AI 自动“攻破系统”的演示。更重要的是，它展示了模型如何协助安全专家**阅读代码、串联线索、验证风险并推动修复**。相关发现及效果来自 Google 和合作方披露，仍应以实际安全审核为准。
+
+在金融和法律领域，Google 强调 Argon 能结合长文本理解与多步骤推理，协助分析财务报告、法律材料和大量跨文档信息。Google 还举例称，Isomorphic Labs 正利用它梳理药物研究中的复杂论文和专利，缩短部分资料分析时间。
+
+这些任务看似没有机器人演示那么直观，却可能更早进入日常工作：**一份报告要阅读多少文件、核对多少数据、经过多少轮复查，直接决定了工作成本。**
+
 ## 在不同测试中，Argon 的表现也有差异
 
 Google 公布的评测中，Argon 在 **DeepSWE v1.1** 软件工程测试取得 **77.9%**，高于同表列出的 Claude Opus 5.5 的 **74.2%**。
@@ -116,6 +128,7 @@ Chrome 的这项重构案例提供了一个具体观察窗口：复杂工程中�
 
 **资料来源**
 
+- [Google｜Gemini 4 Argon 的安全防护与安全研究案例](https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/)
 - [Google DeepMind｜Gemini 4 Argon 官方能力、案例与评测](https://deepmind.google/models/gemini/)
 - [Google 官方发布｜Gemini 4 Argon](https://blog.google/intl/en-in/products/introducing-gemini-4-argon/)
 - [Google AI for Developers｜模型规格与接入](https://ai.google.dev/gemini-api/docs/models/gemini-4-argon)
