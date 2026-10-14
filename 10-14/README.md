@@ -1,20 +1,17 @@
 # 2026 年 10 月 14 日 · 全球新鲜事
 
-精选两条值得关注的 AI 与科技产品新闻，整理为适合微信公众号移动端阅读的 Markdown 文章。
+适合微信公众号移动端阅读的深度文章，两篇正文及官方案例配图；封面图保存在 `assets/`，**不嵌入正文**。
 
-| 编号 | 公众号文章 | 封面图 |
+| 编号 | 文章 | 独立封面 |
 |:---:|---|---|
-| 01 | [谷歌突然放出 Gemini 4 Argon：AI 的下一场争夺战，已经不是聊天了](01_Gemini4Argon_谷歌AI旗舰模型.md) | [查看封面](assets/01_gemini4argon_cover.jpg) |
-| 02 | [苹果终于把 AI 搬进客厅：299 美元的 HomeView，想取代的可能不是 iPad](02_AppleHomeView_苹果AI家庭屏.md) | [查看封面](assets/02_homeview_cover.jpg) |
+| 01 | [谷歌 Gemini 4 Argon 杀疯了：数月的开发工作缩到几周，AI 正在突破新边界](01_Gemini4Argon_谷歌AI旗舰模型.md) | [Gemini 封面](assets/01_gemini4argon_cover.jpg) |
+| 02 | [苹果发布 299 美元的「家庭 AI 大脑」：能认出 6 位家人，Siri 要变成全家的管家](02_AppleHomeView_苹果AI家庭屏.md) | [HomeView 封面](assets/02_homeview_cover.jpg) |
 
-### 图片存放说明
+## 配图
 
-- `assets/01_gemini4argon_cover.jpg`：Google 官方标识衍生的无文字封面，1175 × 500。
-- `assets/01_gemini4argon_official.jpg`：Google Cloud 官方发布视觉。
-- `assets/02_homeview_cover.jpg`：Apple 官方产品发布图片裁剪的无文字封面，1175 × 500。
-- `assets/02_homeview_product.jpg`：Apple HomeView 官方产品图片。
-- `assets/02_homeview_kitchen.jpg`：Apple HomeView 官方厨房使用场景。
+- Gemini 文章：`01_gemini4argon_official.jpg`、`01_gemini4argon_chrome_case.jpg`、`01_gemini4argon_robot_demo.jpg`
+- HomeView 文章：`02_homeview_product.jpg`、`02_homeview_recognition.jpg`、`02_homeview_home_collection.jpg`、`02_homeview_kitchen.jpg`
 
-> 素材版权归对应权利方。整理与图片编辑旨在配合新闻报道；公众号发表前请确认媒体素材使用条件。
+正文图片分别来自 Google、Google DeepMind 官方公开视频预览图以及 Apple 官方新闻稿。版权归各自权利方，发表前请确认素材使用条件。
 
-**整理日期**：2026 年 10 月 14 日（北京时间）
+**排版规范**：不插入封面；标题后直接进入正文；不加分类标签、整理日期、灰色引用导语；短段落、适量重点加粗、案例与正文配图相结合。
