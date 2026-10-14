@@ -119,14 +119,3 @@ Google 已通过 Gemini 应用、搜索 AI Mode、AI Studio 和 Gemini API 等�
 更准确地说，**同一个模型开始进入越来越多原本需要专业软件、专业流程和专业人员协作的场景。**
 
 而决定它最终能走多远的，是这些演示能否在真实项目里持续、可靠地复现。
-
----
-
-**资料来源**
-
-- [Google｜Gemini 4 Argon 官方发布及主要应用案例](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)
-- [Google｜Gemini 4 Argon 安全与防护机制](https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/)
-- [Google DeepMind｜Gemini 4 Argon Model Card](https://deepmind.google/models/model-cards/gemini-4-argon/)
-- [Google AI for Developers｜Gemini API 文档](https://ai.google.dev/gemini-api/docs/latest-model)
-
-*文中测试数据与应用案例来自 Google 及其合作伙伴公开资料；涉及的性能提升均对应特定任务与测试环境。*
