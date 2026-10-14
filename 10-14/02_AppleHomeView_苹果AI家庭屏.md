@@ -145,12 +145,3 @@ HomeView 的美国起售价为 **299 美元**，桌面版与壁挂版均从这�
 HomeView 是否值得买，最终取决于 Siri 的实际表现、第三方设备的兼容程度，以及用户是否愿意为一整套体验付费。
 
 它未必会取代 iPad，也未必适合每个家庭。但它清楚表明，苹果正在认真争取一个新位置：**智能家居的控制中心。**
-
----
-
-**资料来源**
-
-- [Apple Newsroom｜Apple HomeView 正式发布](https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/)
-- [Apple Newsroom｜Apple Home Collection 智能家居配件](https://www.apple.com/uk/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/)
-
-*文中部分生活场景属于基于苹果公布功能的说明性组合；实际支持情况以设备、地区、语言、系统版本及服务要求为准。*
