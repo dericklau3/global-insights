@@ -1,11 +1,8 @@
 # 苹果终于把 AI 搬进客厅：299 美元的 HomeView，想取代的可能不是 iPad
 
-> **科技产品｜2026 年 10 月 14 日**  
+> **2026 年 10 月 14 日**  
 > 7 英寸屏幕、全新 Siri AI、最多识别 6 位家人——苹果的智能家居入口终于有了新形态。
 
-![Apple HomeView 公众号封面：苹果官方产品照片裁剪](assets/02_homeview_cover.jpg)
-
-*封面图片：Apple 官方 HomeView 产品图，按微信公众号 2.35:1 横幅比例裁剪；无新增文字。*
 
 如果家里只能有一块公共屏幕，你希望它做什么？
 
@@ -86,4 +83,4 @@ HomeView 想补上中间的空白：**让 AI 随时出现在家里，让复杂�
 - [Apple Newsroom：HomeView 正式发布（2026 年 10 月 13 日）](https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/)
 - [MacRumors：Apple HomeView 产品与规格汇总](https://www.macrumors.com/roundup/apple-homeview/)
 
-*编辑说明：截至北京时间 2026 年 10 月 14 日。价格、上市时间与功能支持以苹果官方对应国家或地区页面为准；图片为 Apple 官方发布素材，封面仅作比例裁剪与轻度优化。*
+*编辑说明：截至北京时间 2026 年 10 月 14 日。价格、上市时间与功能支持以苹果官方对应国家或地区页面为准；正文配图来自 Apple 官方发布素材。*
