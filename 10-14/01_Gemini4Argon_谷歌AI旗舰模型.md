@@ -1,11 +1,8 @@
 # 谷歌突然放出 Gemini 4 Argon：AI 的下一场争夺战，已经不是聊天了
 
-> **AI 前沿｜2026 年 10 月 14 日**  
+> **2026 年 10 月 14 日**  
 > 一款新的旗舰大模型，正在把 AI 从“回答问题”推向“完成工作”。
 
-![Gemini 4 Argon 公众号封面：以 Google 官方视觉标识为基础制作](assets/01_gemini4argon_cover.jpg)
-
-*封面设计：基于 Google Cloud 官方发布视觉中的 Gemini 标识重新构图，未添加标题文字。*
 
 10 月 13 日，Google 正式推出新一代旗舰模型 **Gemini 4 Argon**。
 
@@ -92,4 +89,4 @@ Gemini 4 Argon 的发布，并不能单凭官方跑分就证明它全面领先�
 - [Google 开发者文档：模型特性、接入与定价](https://ai.google.dev/gemini-api/docs/latest-model)
 - [Google DeepMind：Gemini 4 Argon Model Card](https://deepmind.google/models/model-cards/gemini-4-argon/)
 
-*编辑说明：截至北京时间 2026 年 10 月 14 日；本文依据 Google 官方资料整理，涉及内部成绩均按官方口径归属。封面为编辑制作的示意视觉，非新品发布活动现场照片。*
+*编辑说明：截至北京时间 2026 年 10 月 14 日；本文依据 Google 官方资料整理，涉及内部成绩均按官方口径归属。*
