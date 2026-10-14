@@ -4,8 +4,8 @@
 
 | 编号 | 文章 | 独立封面 |
 |:---:|---|---|
-| 01 | [谷歌 Gemini 4 Argon 登场：Chrome 一项原需数月的重构，为何几周就完成了？](01_Gemini4Argon_谷歌AI旗舰模型.md) | [Gemini 封面](assets/01_gemini4argon_cover.jpg) |
-| 02 | [苹果 HomeView 来了：299 美元、能认出 6 位家人，Siri 想当家庭管家](02_AppleHomeView_苹果AI家庭屏.md) | [HomeView 封面](assets/02_homeview_cover.jpg) |
+| 01 | [谷歌 Gemini 4 Argon 登场：从改代码、找漏洞到训练机器人，AI 的能力又进了一步](01_Gemini4Argon_谷歌AI旗舰模型.md) | [Gemini 封面](assets/01_gemini4argon_cover.jpg) |
+| 02 | [苹果把 Siri 带进了客厅：能认人、看家、管设备，HomeView 想成为家庭新入口](02_AppleHomeView_苹果AI家庭屏.md) | [HomeView 封面](assets/02_homeview_cover.jpg) |
 
 ## 配图
 
