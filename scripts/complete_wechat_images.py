@@ -105,6 +105,16 @@ def main(manifest_path):
         topic=row["prefix"]; title=row["commons_file"]
         photo=folder/"assets"/(topic+"_01.jpg")
         cover=folder/"assets"/(topic+"_cover.jpg")
+        # Body and cover must come from different original images or independently authored factual charts.
+        current_markdown=doc.read_text("utf-8")
+        if cover.is_file() and re.search(r"!\\[[^\\]]+\\]\\(assets/[^)]+\\.svg\\)", current_markdown):
+            print("SKIPPED_DISTINCT_INFOGRAPHIC", name, flush=True)
+            continue
+        if not row.get("body_commons_file") or row["body_commons_file"] == title:
+            failures.append(name+": distinct licensed body_commons_file required; duplicated source forbidden")
+            print("BLOCKED_DUPLICATE_IMAGE_SOURCE", name, flush=True)
+            continue
+
         # Do not re-download successfully archived assets during retry runs.
         if photo.is_file() and cover.is_file() and f"assets/{topic}_01.jpg" in doc.read_text("utf-8"):
             license_url=LICENSE_URLS.get(row["license"],"")
@@ -122,7 +132,8 @@ def main(manifest_path):
             else:
                 source, actual_url, info=download_image(title)
             if source.width<150 or source.height<100: raise ValueError("Image resolution too low")
-            save_jpeg(fit_body(source),photo)
+            body_source, body_url, body_info = download_image(row["body_commons_file"])
+            save_jpeg(fit_body(body_source),photo)
             save_jpeg(fit_cover(source),cover)
             check=Image.open(cover)
             if check.size != (1175,500):raise AssertionError("Bad cover dimensions")
@@ -156,11 +167,11 @@ def main(manifest_path):
         content=readme.read_text("utf-8")
         # Regenerating is idempotent: replace this specific block only.
         marker="## 图片与封面资源（版权及来源）"
-        content=content.split(marker)[0].rstrip()
-        content=re.sub(r"\n> 本轮因图片素材核验、版权与二进制上传尚未完成，暂未生成封面或正文配图；不得将文章视为已完成视觉制作的公众号成稿。正文无封面引用与不存在的图片路径。", "", content)
-        content+="\n\n"+marker+"\n\n"
-        content+="封面为 1175×500 的独立图片，不嵌入正文。图片取自所列 Wikimedia Commons 原始来源，经过裁切/缩放；公司建筑、历史发射等均为**资料图片，不代表本次新闻现场**。\n\n"
-        content+="\n".join(credits)+"\n"
+        # Preserve existing source records from other article repairs.
+        if marker not in content:
+            content+="\\n\\n"+marker+"\\n"
+        content=re.sub(r"\\n\\*\\*仍待补图：\\*\\*[^\\n]*", "", content)
+        content+="\\n"+"\\n".join(credits)+"\\n"
         if failures:
             content+="\n**仍待补图：** "+", ".join(failures)+"\n"
         readme.write_text(content,"utf-8")
