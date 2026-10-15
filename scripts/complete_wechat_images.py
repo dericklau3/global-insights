@@ -105,7 +105,13 @@ def main(manifest_path):
             print("SKIPPED_EXISTING",name,flush=True)
             continue
         try:
-            source, actual_url, info=download_image(title)
+            if row.get("local_svg_file"):
+                local = folder/row["local_svg_file"]
+                bmp = cairosvg.svg2png(bytestring=local.read_bytes(), output_width=1600)
+                source = Image.open(io.BytesIO(bmp)).convert("RGBA")
+                actual_url, info = "local verification copy", {}
+            else:
+                source, actual_url, info=download_image(title)
             if source.width<150 or source.height<100: raise ValueError("Image resolution too low")
             save_jpeg(fit_body(source),photo)
             save_jpeg(fit_cover(source),cover)
