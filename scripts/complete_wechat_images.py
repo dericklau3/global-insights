@@ -44,6 +44,15 @@ def commons_file(title):
 def download_image(title):
     url, info = commons_file(title)
     data = requests.get(url, headers=HEADERS, timeout=65)
+    if data.status_code == 429:
+        # Original source remains Wikimedia Commons; this CDN only relays image bytes
+        # when Wikimedia's upload edge rate-limits GitHub Actions runner addresses.
+        relay = requests.get("https://images.weserv.nl/", params={"url":url.split("?")[0], "w":1600},
+                             headers=HEADERS, timeout=65)
+        if relay.ok and relay.headers.get("Content-Type","").startswith("image/"):
+            data=relay
+        else:
+            print("IMAGE_RELAY_UNAVAILABLE", title, relay.status_code,flush=True)
     data.raise_for_status()
     # The proxy can return a text error with status 200; never save that as media.
     if len(data.content) < 500: raise ValueError("Downloaded image is unexpectedly small")
