@@ -107,7 +107,7 @@ def main(manifest_path):
         cover=folder/"assets"/(topic+"_cover.jpg")
         # Body and cover must come from different original images or independently authored factual charts.
         current_markdown=doc.read_text("utf-8")
-        if cover.is_file() and re.search(r"!\\[[^\\]]+\\]\\(assets/[^)]+\\.svg\\)", current_markdown):
+        if cover.is_file() and "](assets/" in current_markdown and ".svg)" in current_markdown:
             print("SKIPPED_DISTINCT_INFOGRAPHIC", name, flush=True)
             continue
         if not row.get("body_commons_file") or row["body_commons_file"] == title:
