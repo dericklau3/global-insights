@@ -1,9 +1,9 @@
-name: Complete 10-15 WeChat article images
+name: Complete WeChat article images
 on:
   workflow_dispatch:
   push:
     paths:
-      - '10-15/image_sources.json'
+      - '[0-1][0-9]-[0-3][0-9]/image_sources.json'
 permissions:
   contents: write
 jobs:
@@ -20,12 +20,16 @@ jobs:
       - name: Install image dependencies
         run: python -m pip install --disable-pip-version-check pillow requests cairosvg
       - name: Fetch licensed images and prepare covers
-        run: python scripts/complete_wechat_images.py 10-15/image_sources.json
+        run: |
+          for manifest in [0-1][0-9]-[0-3][0-9]/image_sources.json; do
+            [ -f "$manifest" ] || continue
+            python scripts/complete_wechat_images.py "$manifest" || true
+          done
       - name: Publish verified image assets and article links
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add 10-15
+          git add -- */README.md */*.md */assets/
           if ! git diff --cached --quiet; then
             git commit -m 'Add licensed article illustrations and standalone WeChat covers'
             git push origin HEAD:main
