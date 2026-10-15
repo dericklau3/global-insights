@@ -40,7 +40,7 @@ def commons_file(title):
             return url, record
         except Exception:
             if attempt == 2: raise
-            time.sleep(2 * (attempt+1))
+            time.sleep(15 * (attempt+1))
 def download_image(title):
     url, info = commons_file(title)
     data = requests.get(url, headers=HEADERS, timeout=65)
@@ -96,6 +96,14 @@ def main(manifest_path):
         topic=row["prefix"]; title=row["commons_file"]
         photo=folder/"assets"/(topic+"_01.jpg")
         cover=folder/"assets"/(topic+"_cover.jpg")
+        # Do not re-download successfully archived assets during retry runs.
+        if photo.is_file() and cover.is_file() and f"assets/{topic}_01.jpg" in doc.read_text("utf-8"):
+            license_url=LICENSE_URLS.get(row["license"],"")
+            source_page="https://commons.wikimedia.org/wiki/File:"+quote(title.replace(" ","_"),safe="()'_")
+            credits.append(f"- [{name}](./{quote(name)}): [图片出处]({source_page}) · 作者 {row['author']} · {row['license']}"+(f" ([许可条款]({license_url}))" if license_url else "")+f"；已裁切/缩放。 [正文图](assets/{topic}_01.jpg) · [独立封面](assets/{topic}_cover.jpg)。")
+            complete+=1
+            print("SKIPPED_EXISTING",name,flush=True)
+            continue
         try:
             source, actual_url, info=download_image(title)
             if source.width<150 or source.height<100: raise ValueError("Image resolution too low")
@@ -124,6 +132,7 @@ def main(manifest_path):
             credits.append(creditline)
             complete+=1
             print("COMPLETE",name,source.size,cover.name,flush=True)
+            time.sleep(2)
         except Exception as e:
             failures.append(name+": "+str(e))
             print("FAILED",name,repr(e),flush=True)
@@ -133,6 +142,7 @@ def main(manifest_path):
         # Regenerating is idempotent: replace this specific block only.
         marker="## 图片与封面资源（版权及来源）"
         content=content.split(marker)[0].rstrip()
+        content=re.sub(r"\n> 本轮因图片素材核验、版权与二进制上传尚未完成，暂未生成封面或正文配图；不得将文章视为已完成视觉制作的公众号成稿。正文无封面引用与不存在的图片路径。", "", content)
         content+="\n\n"+marker+"\n\n"
         content+="封面为 1175×500 的独立图片，不嵌入正文。图片取自所列 Wikimedia Commons 原始来源，经过裁切/缩放；公司建筑、历史发射等均为**资料图片，不代表本次新闻现场**。\n\n"
         content+="\n".join(credits)+"\n"
