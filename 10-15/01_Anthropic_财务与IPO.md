@@ -6,6 +6,10 @@ Claude 背后的 Anthropic，正在向潜在投资者展示一份增长速度惊
 
 不过，这些数字来自与会者的转述，**并非已公布并审计的财报**。这是理解这次消息首先要区分的界限。
 
+![Anthropic 公司标志](assets/01_Anthropic_01.jpg)
+
+*配图：Anthropic 公司标志；图片：Anthropic，Public domain (logo; trademark)。资料图片，不代表本次新闻事件的实际现场。*
+
 ## 收入为何成为全场焦点
 
 同一批消息人士称，Anthropic 第一季度收入约为 47 亿美元，第二季度升至 116 亿美元，第三季度进一步增长到 168 亿美元。

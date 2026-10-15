@@ -4,6 +4,10 @@
 
 Character.AI 已申请美国《破产法》第 11 章保护。随着资产出售程序推进，美国约 40 个州的总检察长通过法律程序表达担忧：**未成年人和其他用户的聊天历史，能否在企业重组或出售时得到充分保护？**
 
+![Character.AI 品牌标志](assets/05_CharacterAI_01.jpg)
+
+*配图：Character.AI 品牌标志；图片：Character.ai，Public domain (logo; trademark)。资料图片，不代表本次新闻事件的实际现场。*
+
 ## 破产不等于聊天记录自动删除
 
 Character.AI 提供面向角色扮演和陪伴场景的聊天机器人，用户可能在对话中谈及情绪、家庭、身体状况和个人关系等私密话题。
