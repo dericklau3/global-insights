@@ -35,7 +35,7 @@ def commons_file(title):
             q.raise_for_status()
             pages = list(q.json()["query"]["pages"].values())
             record = pages[0].get("imageinfo", [{}])[0]
-            url = record.get("thumburl") or record.get("url")
+            url = (record.get("url") if title.lower().endswith(".svg") else (record.get("thumburl") or record.get("url")))
             if not url: raise ValueError("Commons page did not resolve any file")
             return url, record
         except Exception:
