@@ -16,7 +16,6 @@
 10. [印度 Jio 上市发行](./10_Jio_%E5%8D%B0%E5%BA%A6%E5%A4%A7%E5%9E%8BIPO.md)
 11. [美联储褐皮书与 AI 对就业的影响](./11_%E7%BE%8E%E8%81%94%E5%82%A8%E8%A4%90%E7%9A%AE%E4%B9%A6_AI%E5%B0%B1%E4%B8%9A%E4%B8%8E%E9%80%9A%E8%83%80.md)
 
-
 ## 图片与封面资源（版权及来源）
 
 封面为 1175×500 的独立图片，不嵌入正文。图片取自所列 Wikimedia Commons 原始来源，经过裁切/缩放；公司建筑、历史发射等均为**资料图片，不代表本次新闻现场**。
@@ -28,6 +27,7 @@
 - [05_CharacterAI破产_儿童数据保护.md](./05_CharacterAI%E7%A0%B4%E4%BA%A7_%E5%84%BF%E7%AB%A5%E6%95%B0%E6%8D%AE%E4%BF%9D%E6%8A%A4.md): [图片出处](https://commons.wikimedia.org/wiki/File:Character.ai_logo_new.png) · 作者 Character.ai · Public domain (logo; trademark)；已裁切/缩放。 [正文图](assets/05_CharacterAI_01.jpg) · [独立封面](assets/05_CharacterAI_cover.jpg)。
 - [06_亚洲芯片股_连锁下跌.md](./06_%E4%BA%9A%E6%B4%B2%E8%8A%AF%E7%89%87%E8%82%A1_%E8%BF%9E%E9%94%81%E4%B8%8B%E8%B7%8C.md): [图片出处](https://commons.wikimedia.org/wiki/File:Samsung_headquarters.jpg) · 作者 Oskar Alexanderson · CC BY-SA 2.0 ([许可条款](https://creativecommons.org/licenses/by-sa/2.0/))；已裁切/缩放。 [正文图](assets/06_AsiaChips_01.jpg) · [独立封面](assets/06_AsiaChips_cover.jpg)。
 - [07_台积电_财报预期.md](./07_%E5%8F%B0%E7%A7%AF%E7%94%B5_%E8%B4%A2%E6%8A%A5%E9%A2%84%E6%9C%9F.md): [图片出处](https://commons.wikimedia.org/wiki/File:TSMC_factory_in_Taichung's_Central_Taiwan_Science_Park.jpg) · 作者 Mendes · CC BY-SA 4.0 ([许可条款](https://creativecommons.org/licenses/by-sa/4.0/))；已裁切/缩放。 [正文图](assets/07_TSMC_01.jpg) · [独立封面](assets/07_TSMC_cover.jpg)。
+- [10_Jio_印度大型IPO.md](./10_Jio_%E5%8D%B0%E5%BA%A6%E5%A4%A7%E5%9E%8BIPO.md): [图片出处](https://commons.wikimedia.org/wiki/File:Reliance_Jio_Logo.svg) · 作者 Reliance Jio · Public domain (logo; trademark)；已裁切/缩放。 [正文图](assets/10_Jio_01.jpg) · [独立封面](assets/10_Jio_cover.jpg)。
 - [11_美联储褐皮书_AI就业与通胀.md](./11_%E7%BE%8E%E8%81%94%E5%82%A8%E8%A4%90%E7%9A%AE%E4%B9%A6_AI%E5%B0%B1%E4%B8%9A%E4%B8%8E%E9%80%9A%E8%83%80.md): [图片出处](https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg) · 作者 Board of Governors of the Federal Reserve System · Public domain (US Federal Reserve)；已裁切/缩放。 [正文图](assets/11_Fed_01.jpg) · [独立封面](assets/11_Fed_cover.jpg)。
 
-**仍待补图：** 08_RocketLab_Neutron延期.md: 429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Rocket_Lab_PREFIRE-1_Launch_%28KSC-20240525-PH-RKL01_0005%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled, 09_佛州_儿童社交媒体禁令.md: 429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/1/14/Florida_Capitol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled, 10_Jio_印度大型IPO.md: 429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Reliance_Jio_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+**仍待补图：** 08_RocketLab_Neutron延期.md: 429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/1/12/Electron_small_launch_vehicle_of_the_Rocket_Lab_Mission_to_Venus.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled, 09_佛州_儿童社交媒体禁令.md: 429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/1/14/Florida_Capitol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled

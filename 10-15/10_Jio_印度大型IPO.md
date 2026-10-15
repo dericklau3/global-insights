@@ -6,6 +6,10 @@ Reliance 旗下 Jio Platforms 公布每股 **1065 至 1119 印度卢比**的发�
 
 按报价区间上限估算，公司估值可能超过 1000 亿美元。需要注意，这仍是发行定价与估值测算，最终结果取决于发行安排及市场需求。
 
+![印度 Reliance Jio 品牌标志](assets/10_Jio_01.jpg)
+
+*配图：印度 Reliance Jio 品牌标志；图片：Reliance Jio，Public domain (logo; trademark)。资料图片，不代表本次新闻事件的实际现场。*
+
 ## 为什么 Jio 不只是电信公司
 
 Jio 以移动通信业务建立大规模用户基础，随后将布局延伸到数字服务、内容与企业解决方案等领域。
