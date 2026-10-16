@@ -6,7 +6,7 @@
 
 | 编号 | 公众号文章 | 重要程度 | 正文 | 封面 | 正文配图 |
 |---|---|---|---|---|---|
-| 01 | [Anthropic 季度收入逼近 170 亿美元：Claude 增长很快，2 万亿美元估值靠什么支撑？](01_anthropic_revenue_ipo.md) | ★★★★★ | 已写入 | [已上传封面](assets/01_anthropic_revenue_ipo_cover.jpg)（模型版本待核验） | **待补** |
+| 01 | [Anthropic收入冲到168亿美元，IPO估值却被重新讨论：增长越快，投资人为何越谨慎？](01_anthropic_revenue_ipo.md) | ★★★★★ | 已写入 | [已上传封面](assets/01_anthropic_revenue_ipo_cover.jpg)（模型版本待核验） | **待补** |
 | 02 | [AI 芯片越卖越旺，台积电却不敢乐观到底：利润猛增 69% 后的两种信号](02_tsmc_earnings_ai.md) | ★★★★★ | 已写入 | [已上传封面](assets/02_tsmc_earnings_ai_cover.jpg)（模型版本待核验） | **待补** |
 | 03 | [AI 股票为什么突然一起跌？从韩国芯片股到数据中心债务，市场开始算另一笔账](03_ai_market_debt_selloff.md) | ★★★★★ | 已写入 | [已上传封面](assets/03_ai_market_debt_selloff_cover.jpg)（模型版本待核验） | **待补** |
 | 04 | [让机器人先在虚拟世界练习，再去工厂干活：深圳公司的新路线能省下多少训练成本？](04_dexforce_robot_training.md) | ★★★★☆ | 已写入 | [已上传封面](assets/04_dexforce_robot_training_cover.jpg)（模型版本待核验） | **待补** |
@@ -76,3 +76,8 @@
 - 14 Jio IPO：Reuters https://www.reuters.com/world/india/indias-reliance-industries-jumps-after-unit-jio-platforms-sets-price-band-ipo-2026-10-15/
 
 **封面授权属性**：cover_type=AI_generated_concept；cover_source=专属AI生成概念图；cover_model=GPT Image 2.5 待核验。**正文配图使用授权状态**：body_image_license=待授权；body_source=待补。
+
+
+## 10月16日早间更新
+
+- 01 Anthropic：北京时间10月16日05:00路透社披露部分投资者讨论较此前预期更低的IPO估值。已修订旧稿，未另建重复文章。来源：https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/
