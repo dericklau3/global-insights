@@ -7,21 +7,21 @@
       "id": "meta-muse-spark-open-20261015",
       "title": "Meta Muse Spark Open 816B开放权重",
       "importance": "★★★★★",
-      "summary": "此前10月16日08:00新闻简报中的独立高星选题，尚未找到main上同一事件的正式文章；制作前需重新核对事实和原始来源。",
+      "summary": "Meta官方10月15日确认Muse Spark Open开放权重：816B总参数、42B激活、100万token上下文，可用两台M5 Ultra Mac Studio运行。",
       "source_urls": [
         "https://research.meta.ai/blog/muse-spark-open"
       ],
       "published_at_beijing": "2026-10-16 05:19",
-      "published_time_verification": "previous_run_requires_recheck",
+      "published_time_verification": "official_meta_2026-10-15",
       "discovered_window": "2026-10-15T20:00:00+08:00/2026-10-16T08:00:00+08:00",
       "discovery_kind": "carryover_from_prior_brief",
       "status": "failed",
-      "research_verified": false,
+      "research_verified": true,
       "article_path": null,
       "cover_path": null,
       "completed_commit_sha": null,
-      "retry_count": 1,
-      "last_error": "无法核实'816B开放权重'或原候选官方URL；Meta官方可查的是Muse Spark 1.1 API公测，不是816B开源发布。不得按原候选制作文章。"
+      "retry_count": 2,
+      "last_error": "Official report verified; cannot atomically publish article because GitHub create_blob encoding=base64 is blocked by connector safety checks."
     },
     {
       "id": "amazon-bee-wearables-20261015",
@@ -29,8 +29,7 @@
       "importance": "★★★★★",
       "summary": "Amazon于2026年10月15日发布Bee Frontier（74.99美元、已开售）及Bee Eclipse（99.99美元、待上市）；以对话摘要、任务提醒及Alexa+/购物生态联动为重点。",
       "source_urls": [
-        "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
-        "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+        "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse"
       ],
       "published_at_beijing": "2026-10-15T20:00:00+08:00",
       "published_time_verification": "TechCrunch 2026-10-15 05:00 PDT; original 2026-10-16 01:43 value not corroborated",
@@ -41,8 +40,8 @@
       "article_path": null,
       "cover_path": null,
       "completed_commit_sha": null,
-      "retry_count": 1,
-      "last_error": "已生成稿件与1175x500专属JPEG，但GitHub create_blob(base64)多次触发安全检查，无法将真实封面二进制入库；禁止单独提交文章，保留待下一轮重试。",
+      "retry_count": 2,
+      "last_error": "Article and 1175x500 JPEG prepared locally; GitHub create_blob encoding=base64 blocked by connector safety checks. No formal article committed.",
       "planned_archive_date": "10-15",
       "local_prepared_files": [
         "16_amazon_bee_wearables.md",
@@ -354,6 +353,9 @@
     "hourly_updates": 0,
     "backfills": 0,
     "duplicate_events": 4,
-    "phase1": "pending_remote_validation"
+    "phase1": "remote_verified",
+    "phase1_commit": "9a31ee05d1ae46f785b5a5a6ef2bcc2f29bf4a42",
+    "phase2": "binary_cover_upload_blocked",
+    "note": "Two oldest failed items remain failed with retry counts; other pending items retained."
   }
 }

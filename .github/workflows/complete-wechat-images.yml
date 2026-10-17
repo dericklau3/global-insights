@@ -1,36 +1,12 @@
-name: Complete WeChat article images
+# Legacy image workflow disabled: only explicitly authorized, independently verified real article images may be committed.
+name: Disabled legacy image completion
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '[0-1][0-9]-[0-3][0-9]/image_sources.json'
 permissions:
-  contents: write
+  contents: read
 jobs:
-  fill-images:
-    if: github.ref == 'refs/heads/main'
+  disabled:
+    if: false
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - name: Install image dependencies
-        run: python -m pip install --disable-pip-version-check pillow requests cairosvg
-      - name: Fetch licensed images and prepare covers
-        run: |
-          for manifest in [0-1][0-9]-[0-3][0-9]/image_sources.json; do
-            [ -f "$manifest" ] || continue
-            python scripts/complete_wechat_images.py "$manifest" || true
-          done
-      - name: Publish verified image assets and article links
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- */README.md */*.md */assets/
-          if ! git diff --cached --quiet; then
-            git commit -m 'Add licensed article illustrations and standalone WeChat covers'
-            git push origin HEAD:main
-          fi
+      - run: echo 'Legacy workflow disabled'
