@@ -20,6 +20,7 @@
 | 12 | [TikTok 在欧洲又遇监管关口：被认定“守门人”，到底会多出哪些义务？](12_tiktok_eu_dma.md) | ★★★★☆ | 已写入并核验 | [专属封面](assets/12_tiktok_eu_dma_cover.jpg)（GPT Image 2.5 型号待核验） | **真实授权配图待补** |
 | 13 | [英伟达把算力带进欧洲科研计划：AI 不只训练聊天模型，还要加速科学实验](13_nvidia_eu_science.md) | ★★★★☆ | 已写入并核验 | [专属封面](assets/13_nvidia_eu_science_cover.jpg)（GPT Image 2.5 型号待核验） | **真实授权配图待补** |
 | 14 | [印度 Jio 冲击超千亿美元估值：一家通信巨头上市，为什么整个电信板块都在关注？](14_jio_ipo.md) | ★★★★☆ | 已写入并核验 | [专属封面](assets/14_jio_ipo_cover.jpg)（GPT Image 2.5 型号待核验） | **真实授权配图待补** |
+| 15 | [CERN 联手 Mistral：让 AI 读懂数十亿次粒子碰撞，科学大模型要挑战什么？](15_cern_mistral_physics.md) | ★★★★★ | 已提交，远程校验中 | [独立封面](assets/15_cern_mistral_physics_cover.jpg)（模型待核验） | **真实授权配图待补** |
 
 ## 封面、配图与合规记录（第三次手动执行后）
 
@@ -39,7 +40,7 @@
 - **body_source**：正文仍只允许真实新闻报道图片、相关机构官方发布图、官方演示截图。六篇均尚未取得确认可合法转载的正文图片，不能为了凑图使用 SVG、AI 图或未经许可的路透社照片。
 - **body_image_license**：待授权/待核验；禁止未经适当许可复制受版权保护的媒体照片。
 - **GitHub 远程核验**：六张封面通过 Git blob 二进制方式上传并提交到 `main`；核对路径、SHA、文件大小；不是本地预览。
-- **目前状态（晚间补录后）**：文章共 14 篇，每篇有一张独立的远端封面文件；封面底层生成模型版本待核验，部分旧封面仍需复核文字；正文合法授权新闻配图共 0 张，因此可判为完整图文的文章仍为 0 篇。
+- **目前状态（晚间补录后）**：文章共 15 篇，每篇有一张独立的远端封面文件；封面底层生成模型版本待核验，部分旧封面仍需复核文字；正文合法授权新闻配图共 0 张，因此可判为完整图文的文章仍为 0 篇。
 
 ## 事实与研究来源（内部归档，不插入公众号文章正文）
 
@@ -76,3 +77,12 @@
 - 14 Jio IPO：Reuters https://www.reuters.com/world/india/indias-reliance-industries-jumps-after-unit-jio-platforms-sets-price-band-ipo-2026-10-15/
 
 **封面授权属性**：cover_type=AI_generated_concept；cover_source=专属AI生成概念图；cover_model=GPT Image 2.5 待核验。**正文配图使用授权状态**：body_image_license=待授权；body_source=待补。
+
+## 跨期队列续跑补录：CERN × Mistral（2026-10-17 测试）
+
+- 独立正式文章：[15_cern_mistral_physics.md](15_cern_mistral_physics.md)；独立封面：[assets/15_cern_mistral_physics_cover.jpg](assets/15_cern_mistral_physics_cover.jpg)。
+- **事件日期**：2026-10-15；为10月16日早间简报遗留高星选题，经队列续跑归档，**不是10月17日07:00—08:00的新消息**。
+- **CERN官方原文**：https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/；**Reuters**：https://www.reuters.com/science/cern-mistral-partner-build-ai-foundation-models-physics-2026-10-15/。
+- **cover_type**：AI_generated_concept；**cover_model**：GPT Image 2.5 型号待核验；**cover_size**：1175×500 JPEG；**cover_source**：原创非纪实粒子碰撞概念视觉，不是CERN设施真实摄影，不嵌入正文。
+- **body_source**：CERN官方新闻稿公开展示配图，但未能核实可用于微信公众号转载的授权；**body_image_license**：待授权；**正文配图**：0；**完整图文**：否。
+- **事实限制**：双方仅签署合作意向书，尚无完成模型、量化性能结果、预算或正式上线计划。部分媒体用“Flare”指称项目，但CERN官方新闻稿称Large Physics Model，因此正式文章使用官方名称。

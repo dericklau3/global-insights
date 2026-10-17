@@ -43,21 +43,27 @@
     },
     {
       "id": "cern-mistral-flare-20261015",
-      "title": "CERN与Mistral合作物理基础模型Flare",
+      "title": "CERN携手Mistral研发面向粒子物理的大型基础模型",
       "importance": "★★★★★",
-      "summary": "此前10月16日08:00新闻简报中的独立高星选题，尚未找到main上同一事件的正式文章；制作前需重新核对事实和原始来源。",
-      "source_urls": [],
-      "published_at_beijing": "2026-10-15 20:02",
-      "published_time_verification": "previous_run_requires_recheck",
+      "summary": "10月15日CERN与Mistral签署长期合作意向书，拟用数十亿次模拟质子碰撞训练跨任务Large Physics Model，尚未发布模型、预算、时间表或性能结果。",
+      "source_urls": [
+        "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+        "https://www.reuters.com/science/cern-mistral-partner-build-ai-foundation-models-physics-2026-10-15/"
+      ],
+      "published_at_beijing": "2026-10-15T20:11:00+08:00",
+      "published_time_verification": "Reuters via Yahoo 2026-10-15T12:11:00Z",
       "discovered_window": "2026-10-15T20:00:00+08:00/2026-10-16T08:00:00+08:00",
       "discovery_kind": "carryover_from_prior_brief",
-      "status": "pending",
-      "research_verified": false,
-      "article_path": null,
-      "cover_path": null,
+      "status": "submitted_pending_verification",
+      "research_verified": true,
+      "article_path": "10-15/15_cern_mistral_physics.md",
+      "cover_path": "10-15/assets/15_cern_mistral_physics_cover.jpg",
       "completed_commit_sha": null,
       "retry_count": 0,
-      "last_error": null
+      "last_error": null,
+      "cover_model": "GPT Image 2.5 型号待核验",
+      "cover_type": "AI_generated_concept",
+      "body_image_license": "pending"
     },
     {
       "id": "google-news-licensing-20261015",
