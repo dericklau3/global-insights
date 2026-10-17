@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_beijing": "2026-10-17T08:05:00+08:00",
+  "updated_at_beijing": "2026-10-17T08:58:58+08:00",
   "description": "高星新闻公众号文章待办队列；普通雷达简报不要求封面；正式公众号文章必须与专属封面同次提交。",
   "items": [
     {
@@ -278,5 +278,14 @@
       "retry_count": 0,
       "last_error": null
     }
-  ]
+  ],
+  "last_hourly_reconciliation": {
+    "hour": "2026-10-17T07:00:00+08:00/2026-10-17T08:00:00+08:00",
+    "new_confirmed_events": 0,
+    "new_queue_items": 0,
+    "duplicate_queue_ids_avoided": [
+      "taiwan-ai-chip-export-criminal-penalties-20261016"
+    ],
+    "phase1": "verified_after_commit"
+  }
 }
