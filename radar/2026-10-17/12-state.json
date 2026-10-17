@@ -1,0 +1,13 @@
+{
+  "window": "2026-10-17T11:00:00+08:00/2026-10-17T12:00:00+08:00",
+  "new_events": 0,
+  "backfills": 0,
+  "duplicate_events": 4,
+  "queue_file": "radar/queue.json",
+  "queue_blob_sha": "e1a23456991ccd2085ad0608984605f103ff4c66",
+  "queue_items": 17,
+  "queue_unchanged": true,
+  "reason": "No new verified high-star events; existing queue retained without modification.",
+  "phase1": "commit_pending_remote_verification",
+  "phase2": "not_started"
+}
