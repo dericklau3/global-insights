@@ -1,0 +1,12 @@
+{
+  "hour": "2026-10-17T12:00:00+08:00",
+  "phase1": "verified",
+  "phase2": "cover_binary_write_unavailable",
+  "oldest_ids": [
+    "meta-muse-spark-open-20261015",
+    "amazon-bee-wearables-20261015"
+  ],
+  "article_cover_pairs_committed": 0,
+  "queue_unchanged": true,
+  "next_run_retry": true
+}
