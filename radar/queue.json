@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_beijing": "2026-10-17T08:58:58+08:00",
+  "updated_at_beijing": "2026-10-17T09:56:56+08:00",
   "description": "高星新闻公众号文章待办队列；普通雷达简报不要求封面；正式公众号文章必须与专属封面同次提交。",
   "items": [
     {
@@ -286,15 +286,74 @@
       "completed_commit_sha": null,
       "retry_count": 0,
       "last_error": null
+    },
+    {
+      "id": "anthropic-blackstone-chip-financing-20261017",
+      "title": "Anthropic与Blackstone拟以逾10%收益率筹措芯片债务",
+      "importance": "★★★★★",
+      "summary": "Anthropic与Blackstone拟以逾10%收益率筹措芯片债务；具体数字及条件详见原始Reuters报道。",
+      "source_urls": [
+        "https://www.reuters.com/business/anthropic-offers-blackstone-double-digit-yield-chip-financing-deal-ft-reports-2026-10-17/"
+      ],
+      "published_at_beijing": "2026-10-17T08:57:00+08:00",
+      "discovered_window": "2026-10-17T08:00:00+08:00/2026-10-17T09:00:00+08:00",
+      "discovery_kind": "hourly_report_update",
+      "status": "pending",
+      "research_verified": true,
+      "target_archive_date": "2026-10-17",
+      "article_path": null,
+      "cover_path": null,
+      "completed_commit_sha": null,
+      "retry_count": 0,
+      "last_error": null
+    },
+    {
+      "id": "coreweave-ai-credit-distress-20261016",
+      "title": "CoreWeave债券收益率15%至16%引发AI融资担忧",
+      "importance": "★★★★★",
+      "summary": "CoreWeave债券收益率15%至16%引发AI融资担忧；具体数字及条件详见原始Reuters报道。",
+      "source_urls": [
+        "https://www.reuters.com/legal/transactional/private-credit-roundup-coreweaves-debt-stress-tests-private-credits-ai-financing-2026-10-16/"
+      ],
+      "published_at_beijing": "2026-10-16T21:09:00+08:00",
+      "discovered_window": "2026-10-17T08:00:00+08:00/2026-10-17T09:00:00+08:00",
+      "discovery_kind": "last_24h_supplement_outside_hour",
+      "status": "pending",
+      "research_verified": true,
+      "target_archive_date": "2026-10-16",
+      "article_path": null,
+      "cover_path": null,
+      "completed_commit_sha": null,
+      "retry_count": 0,
+      "last_error": null
+    },
+    {
+      "id": "central-banks-ai-capital-interest-rates-20261016",
+      "title": "AI投资推高资金需求，全球央行讨论利率压力",
+      "importance": "★★★★☆",
+      "summary": "AI投资推高资金需求，全球央行讨论利率压力；具体数字及条件详见原始Reuters报道。",
+      "source_urls": [
+        "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/"
+      ],
+      "published_at_beijing": "2026-10-16T21:28:00+08:00",
+      "discovered_window": "2026-10-17T08:00:00+08:00/2026-10-17T09:00:00+08:00",
+      "discovery_kind": "last_24h_supplement_outside_hour",
+      "status": "pending",
+      "research_verified": true,
+      "target_archive_date": "2026-10-16",
+      "article_path": null,
+      "cover_path": null,
+      "completed_commit_sha": null,
+      "retry_count": 0,
+      "last_error": null
     }
   ],
   "last_hourly_reconciliation": {
-    "hour": "2026-10-17T07:00:00+08:00/2026-10-17T08:00:00+08:00",
-    "new_confirmed_events": 0,
-    "new_queue_items": 0,
-    "duplicate_queue_ids_avoided": [
-      "taiwan-ai-chip-export-criminal-penalties-20261016"
-    ],
-    "phase1": "verified_after_commit"
+    "hour": "2026-10-17T08:00:00+08:00/2026-10-17T09:00:00+08:00",
+    "new_queue_items": 3,
+    "hourly_updates": 1,
+    "backfills": 2,
+    "duplicate_events": 2,
+    "phase1": "awaiting_remote_validation"
   }
 }
