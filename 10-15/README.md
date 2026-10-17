@@ -20,7 +20,7 @@
 | 12 | [TikTok 在欧洲又遇监管关口：被认定“守门人”，到底会多出哪些义务？](12_tiktok_eu_dma.md) | ★★★★☆ | 已写入并核验 | [专属封面](assets/12_tiktok_eu_dma_cover.jpg)（GPT Image 2.5 型号待核验） | **真实授权配图待补** |
 | 13 | [英伟达把算力带进欧洲科研计划：AI 不只训练聊天模型，还要加速科学实验](13_nvidia_eu_science.md) | ★★★★☆ | 已写入并核验 | [专属封面](assets/13_nvidia_eu_science_cover.jpg)（GPT Image 2.5 型号待核验） | **真实授权配图待补** |
 | 14 | [印度 Jio 冲击超千亿美元估值：一家通信巨头上市，为什么整个电信板块都在关注？](14_jio_ipo.md) | ★★★★☆ | 已写入并核验 | [专属封面](assets/14_jio_ipo_cover.jpg)（GPT Image 2.5 型号待核验） | **真实授权配图待补** |
-| 15 | [CERN 联手 Mistral：让 AI 读懂数十亿次粒子碰撞，科学大模型要挑战什么？](15_cern_mistral_physics.md) | ★★★★★ | 已提交，远程校验中 | [独立封面](assets/15_cern_mistral_physics_cover.jpg)（模型待核验） | **真实授权配图待补** |
+| 15 | [CERN 联手 Mistral：让 AI 读懂数十亿次粒子碰撞，科学大模型要挑战什么？](15_cern_mistral_physics.md) | ★★★★★ | 已远端验收 | [独立封面](assets/15_cern_mistral_physics_cover.jpg)（模型待核验） | **真实授权配图待补** |
 
 ## 封面、配图与合规记录（第三次手动执行后）
 
@@ -86,3 +86,5 @@
 - **cover_type**：AI_generated_concept；**cover_model**：GPT Image 2.5 型号待核验；**cover_size**：1175×500 JPEG；**cover_source**：原创非纪实粒子碰撞概念视觉，不是CERN设施真实摄影，不嵌入正文。
 - **body_source**：CERN官方新闻稿公开展示配图，但未能核实可用于微信公众号转载的授权；**body_image_license**：待授权；**正文配图**：0；**完整图文**：否。
 - **事实限制**：双方仅签署合作意向书，尚无完成模型、量化性能结果、预算或正式上线计划。部分媒体用“Flare”指称项目，但CERN官方新闻稿称Large Physics Model，因此正式文章使用官方名称。
+
+- **15号文章与封面的原子提交 SHA**：`76f45facf6b882af3f7d05741ac888482ffe74c4`。远端核验：文章blob `1f5aeb78dd7f9fb6d9f13426a94d1060ad64b5a0`，封面blob `d79a5cce3fdacc2c51e61e09ebf1e4759d47c0b3`，JPEG 205001 字节，1175×500；模型身份待核验，正文授权配图待补。

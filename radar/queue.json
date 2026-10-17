@@ -54,16 +54,25 @@
       "published_time_verification": "Reuters via Yahoo 2026-10-15T12:11:00Z",
       "discovered_window": "2026-10-15T20:00:00+08:00/2026-10-16T08:00:00+08:00",
       "discovery_kind": "carryover_from_prior_brief",
-      "status": "submitted_pending_verification",
+      "status": "published_to_repo",
       "research_verified": true,
       "article_path": "10-15/15_cern_mistral_physics.md",
       "cover_path": "10-15/assets/15_cern_mistral_physics_cover.jpg",
-      "completed_commit_sha": null,
+      "completed_commit_sha": "76f45facf6b882af3f7d05741ac888482ffe74c4",
       "retry_count": 0,
       "last_error": null,
       "cover_model": "GPT Image 2.5 型号待核验",
       "cover_type": "AI_generated_concept",
-      "body_image_license": "pending"
+      "body_image_license": "pending",
+      "remote_verified": true,
+      "remote_verification": {
+        "article_sha": "1f5aeb78dd7f9fb6d9f13426a94d1060ad64b5a0",
+        "cover_sha": "d79a5cce3fdacc2c51e61e09ebf1e4759d47c0b3",
+        "cover_bytes": 205001,
+        "cover_width": 1175,
+        "cover_height": 500,
+        "body_licensed_image_count": 0
+      }
     },
     {
       "id": "google-news-licensing-20261015",
