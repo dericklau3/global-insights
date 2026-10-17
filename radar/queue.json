@@ -15,31 +15,40 @@
       "published_time_verification": "previous_run_requires_recheck",
       "discovered_window": "2026-10-15T20:00:00+08:00/2026-10-16T08:00:00+08:00",
       "discovery_kind": "carryover_from_prior_brief",
-      "status": "pending",
+      "status": "failed",
       "research_verified": false,
       "article_path": null,
       "cover_path": null,
       "completed_commit_sha": null,
-      "retry_count": 0,
-      "last_error": null
+      "retry_count": 1,
+      "last_error": "无法核实'816B开放权重'或原候选官方URL；Meta官方可查的是Muse Spark 1.1 API公测，不是816B开源发布。不得按原候选制作文章。"
     },
     {
       "id": "amazon-bee-wearables-20261015",
-      "title": "Amazon Bee AI随身设备",
+      "title": "Amazon推出Bee Frontier与Bee Eclipse两款个人AI记录设备",
       "importance": "★★★★★",
-      "summary": "此前10月16日08:00新闻简报中的独立高星选题，尚未找到main上同一事件的正式文章；制作前需重新核对事实和原始来源。",
-      "source_urls": [],
-      "published_at_beijing": "2026-10-16 01:43",
-      "published_time_verification": "previous_run_requires_recheck",
+      "summary": "Amazon于2026年10月15日发布Bee Frontier（74.99美元、已开售）及Bee Eclipse（99.99美元、待上市）；以对话摘要、任务提醒及Alexa+/购物生态联动为重点。",
+      "source_urls": [
+        "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+        "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+      ],
+      "published_at_beijing": "2026-10-15T20:00:00+08:00",
+      "published_time_verification": "TechCrunch 2026-10-15 05:00 PDT; original 2026-10-16 01:43 value not corroborated",
       "discovered_window": "2026-10-15T20:00:00+08:00/2026-10-16T08:00:00+08:00",
       "discovery_kind": "carryover_from_prior_brief",
-      "status": "pending",
-      "research_verified": false,
+      "status": "failed",
+      "research_verified": true,
       "article_path": null,
       "cover_path": null,
       "completed_commit_sha": null,
-      "retry_count": 0,
-      "last_error": null
+      "retry_count": 1,
+      "last_error": "已生成稿件与1175x500专属JPEG，但GitHub create_blob(base64)多次触发安全检查，无法将真实封面二进制入库；禁止单独提交文章，保留待下一轮重试。",
+      "planned_archive_date": "10-15",
+      "local_prepared_files": [
+        "16_amazon_bee_wearables.md",
+        "16_amazon_bee_wearables_cover.jpg"
+      ],
+      "body_image_license": "待授权"
     },
     {
       "id": "cern-mistral-flare-20261015",
